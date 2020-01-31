@@ -27,7 +27,9 @@ app.set('views', './views');
 app.get('/', (req, res) => {
     res.render('Home', {});
 });
-
+app.get('/call',(req,res)=>{
+    res.render('Call',{});
+});
 var webServer = http.createServer({
 }, app);
 

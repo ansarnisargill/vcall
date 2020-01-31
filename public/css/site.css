@@ -103,26 +103,8 @@ body {
 
 .videoElement {
     visibility: hidden;
-    width: 250px;
-    margin:2px;
 }
 
-#left {
-    width: 520px;
-    float: left;
-}
-
-#right {
-    margin-left: 200px;
-    /* Change this to whatever the width of your left column is*/
-}
-
-.clear {
-    clear: both;
-}
-.pdfcontrol{
-    visibility:hidden;
-}
 
 .hero.is-info {
     background: linear-gradient(
@@ -133,4 +115,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  .self{
+      right: 0;
+      top: 40;
+      position: absolute;
   }
